@@ -1,6 +1,6 @@
-Nombre Alumno               :   Hugo Muñoz Terán
 Modulo                      :   Modulo 2 - Fundamentos de Desarrollo Front End
 Tipo Evaluacion             :   Consolidacion
-Clonacion de Repositorio    :   git clone 
+Clonacion de Repositorio    :   git clone https://github.com/hmunozt78/portafolio_ficticio.git
+Visualizacion del Proyecto  :   
 Versiones Software          :   Bootstrap 5.3.3
                                 JQuery 3.7.1
