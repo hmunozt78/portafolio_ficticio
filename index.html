@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/logica.js"></script>
+    <title>Modulo 2 - Consolidaci&oacute;n</title>
+</head>
+
+<body>
+
+    <nav id="navSuperior"  class="navbar bg-black border-bottom navbar-expand-lg border-body p-3 fixed-top" data-bs-theme="dark" >
+        <!-- <nav id="navSuperior"  class="navbar navbar-expand-lg p-3 fixed-top bg-body-tertiary " data-bs-theme="dark" > -->
+        <!-- data-bs-theme="dark" -->
+        <div class="container-fluid">
+            <a class="navbar-brand fs-3" href="#">Hugo Muñoz Ter&aacute;n</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    <a class="nav-link" href="#acercaDe">Acerca de</a>
+                    <a class="nav-link" href="#misProyectos">Mis Proyectos</a>
+                    <a class="nav-link" href="#conocimientos" aria-disabled="true">Estudios</a>
+                    <button type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#formContacto"
+                    data-bs-whatever="@mdo">Quieres Contactarme?</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-black text-bg-dark p-3" >
+        
+            <!-- <img src="./assets/img/presentacion.jpg" id="inicio_img" class="img-fluid" alt="Imagen de Presentacion"> -->
+            <div class="container text-center" id="inicio" >
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 text-center align-items-center">
+                  <div class="col text-center"><img src="./assets/img/StickMan.png" id="stickman" class="img-fluid"  alt=""></div>
+                  <div id="presentacion"  class="col"></div>
+                  <div class="col"><img src="./assets/img/Vitruvian_Man_by_Leonardo_da_Vinci.jpg" class="img-fluid" id="leoDaVinci" alt=""></div>
+                </div>
+            </div>
+           
+
+    </header>
+    <section id="acercaDe" class="text-bg-light p-3">
+       <p></p>
+        <div>
+            <h1>
+                Acerca de...
+            </h1>
+            <!-- <span class="d-flex align-middle"> -->
+                <p id="aboutMe">
+                    Entusiasta de la informatica desde pequeño, aplico la forma estructurada de pensar en mi forma de trabajo, lo que me permite tanto trabajar en equipo, como de manera individual sin problemas.
+                </p>
+                <p>En los ultimos años, he trabajado principalmente de Soporte Informatico, especializado en locales de comida, con software Resto, tomando requerimientos de cada cliente, para implementar el software de la mejor manera, y posteriormente solucionar problemas tanto a traves de la aplicacion, como directamente solucionando directo en la base de datos</p>
+                <p>Actualmente curso un Bootcamp de Dessarrollo Web Full Stack, enfocado en Python, tanto para aprender cosas nuevas como para refrescar conocimientos adquiridos hace ya bastante tiempo</p>    
+            <!-- </span> -->
+            
+        </div>
+    </section>
+
+    <section id="misProyectos" class="bg-black text-bg-dark p-3">
+        <p class="solucion1"></p>
+        <div>
+            <h1 id="titProyectos">
+                Mis Proyectos
+            </h1>
+            <div id="proyectos" class="container ">
+                <div class="row" data-bs-theme="dark">
+                  <div class="col">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="./assets/img/fibam.jpg" id="img-fibam" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Federacion Internacional Boxeo y Artes Marciales</h5>
+                          <p class="card-text">Creacion del sitio web original de la Federacion Internacional de Boxeo y Artes Marciales, actualmente en desuso, por derivacion exclusiva a RRSS</p>
+                          <a href="#" class="btn btn-primary">Ir Al Sitio</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="./assets/img/lbsm.png" id="img-lbsm"  class="card-img-top" alt="Logo Liceo Bicentenario Santa Maria de Las Condes">
+                        <div class="card-body">
+                          <h5 class="card-title">Liceo Bicentenario Santa Maria de Las Condes</h5>
+                          <p class="card-text">Mantencion del Sitio del Liceo Bicentenario Santa Maria de Las Condes</p>
+                          <a href="#" class="btn btn-primary">Ir Al Sitio</a>
+                        </div>
+                      </div>
+                    
+                  </div>
+                  <div class="col">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="./assets/img/laBottega.png"  id="img-bottega" class="card-img-top" alt="Logo Restaurant La Bottega">
+                        <div class="card-body">
+                          <h5 class="card-title">Restaurant La Bottega</h5>
+                          <p class="card-text">Mantencion del Sitio del Restaurant La Bottega, actualizando informacion principalmente de la carta y datos de contacto</p>
+                          <a href="http://www.labottega.cl" class="btn btn-primary">Ir al Sitio</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </section>
+
+    <section id="conocimientos">
+        <div class="text-bg-light p-3 text-center">
+            <h1>Conocimientos</h1>
+            <p>Egresado de Instituto Profesional AIEP el año 2012, de la carrera de Analisis de Sistemas.</p>
+            <p>Conocimientos de gestion de base de Datos MS SQL</p>
+            <p>Actualmente cursando un Bootcamp de Desarrollo FullStack, avanzando hasta el momento con el area de Front End</p>
+        </div>
+        
+    </section>
+
+
+    <!-- 
+    Esta seccion abre un Modal eque funciona a modo de Formulario de contacto
+    -->
+    <div class="modal fade" id="formContacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-mail" class="col-form-label">Mail:</label>
+                            <input type="text" class="form-control" id="recipient-mail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Mensaje:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                        <div><button type="submit" id="enviaFormulario" class="btn btn-primary">Enviar</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="sticky-bottom bg-body-tertiary" data-bs-theme="dark">
+        <p>&reg; Kejuma Corp. 2024</p>
+        
+    </footer>
+
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
